@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.designation {
+    font-size: 14px;
+    color: #007bff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+footer span {
+    color: red;
+}
+
+.main-content {
+    width: 70%;
+    padding: 50px;
+    background-color: #fff;
+    background-image: url('https://i.pinimg.com/736x/61/9a/ac/619aac42aee2990dc5a8330ca59eb9d4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.main-content h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.main-content p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-content button:hover {
+    background-color: #0056b3;
+}
